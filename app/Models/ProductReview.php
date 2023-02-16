@@ -11,7 +11,7 @@ class ProductReview extends Model
 
     protected $table = 'product_reviews';
 
-    protected $fillable = ['rating','description'];
+    protected $fillable = ['rating','description','image'];
 
 
 
